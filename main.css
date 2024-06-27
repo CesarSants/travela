@@ -1,0 +1,137 @@
+body {
+    font-family: roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #5c7ddf;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #5c7ddf
+}
+
+.cabeca {
+    display: grid;
+    justify-items: center;
+}
+
+#titulo {
+    font-size: 80px;
+}
+
+#cabecalho .nav .nav-link, .navbar-brand,
+.navbar-brand:hover, .nav-tipos .nav-link.active:hover {
+    color: #fff;
+}
+
+.carousel-inner img{
+    max-height: 350px;
+    width: auto;
+    object-fit: cover;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title, .end {
+    font-family: pacifico, cursive;
+}
+
+
+#sobre, #fale-conosco {
+    background-color: #d5defa;
+}
+
+#tipos {
+    background-color: #e8edf9;
+}
+
+.text-colored {
+    color: #5c7ddf;
+}
+
+.nav-tipos .nav-link.active, #fale-conosco button, .end{
+    background-color: #5c7ddf;
+    color: #fff;
+}
+
+.nav-tipos .nav-link:hover {
+    color:#5c7ddf;
+}
+
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.end {
+    font-size: 100px;
+    padding: auto;;
+    margin-right: 0;
+}
+
+.build{
+    max-height: 500px;
+    width: auto;
+    text-align: center;
+}
+
+.build img {
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+}
+
+.end a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hotel a {
+    text-decoration: none;
+}
+
+
+
+#comp img {
+    float: left;
+    margin: 0 auto;
+    max-height: 200px;
+    width: auto;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    
+}
+
+@media (max-width: 992px) {
+    #comp img {
+        display: none;
+    }
+
+    
+}
+
+@media (max-width: 575px) {
+    .build {
+        margin-bottom: 30px;
+    }
+
+    
+}
+
+
