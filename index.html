@@ -92,88 +92,93 @@
                 </div>
             </div>
         </section>
-        
+        <div id="tit"></div>
         <section id="tipos" class="pt-5 pb-5">
             <div class="container">
                 <div class="row">
-                    <h2 class="section-title text-center mb-5">Tipos de acomodações</h2>
+                    <h2 class="section-title text-center mb-md-5">Tipos de acomodações</h2>
                 </div>
                 <div class="row">
                     <aside class="col-md-2 ms-0 mb-3">
-                        <nav class="nav nav-pills flex-column flex-sm-row flex-xs-row nav-tipos ">
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#hoteis" class="fw-bold text-center nav-link text-colored active">Hoteis</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#residencias" class="fw-bold text-center nav-link text-colored">Residências</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#resorts" class="fw-bold text-center nav-link text-colored">Resorts</button>
+                        <nav class="nav-tipos nav nav-pills flex-md-column flex-lg-column flex-xg-column justify-content-center" id="secnav">
+                            <a href="#tit"><button type="button" data-bs-toggle="tab" data-bs-target="#hoteis" class="fw-bold text-center nav-link text-colored active">Hoteis</button></a>
+                            <a href="#tipos"><button type="button" data-bs-toggle="tab" data-bs-target="#residencias" class="fw-bold text-center nav-link text-colored">Casas</button></a>
+                            <a href="#tipos"><button type="button" data-bs-toggle="tab" data-bs-target="#resorts" class="fw-bold text-center nav-link text-colored">Resorts</button></a>
                         </nav>
-                        <div class="text-center" id="comp">
+                        <!--<div class="text-center" id="comp">
                             <img src="./images/compass.png" alt="">
-                        </div>
+                        </div>-->
                     </aside>
                     <div class="col-md-10 ">
-                        <div class="tab-content">
+                        <nav class="nav-tipos2 nav nav-pills justify-content-center" >
+                            <a href="#tit"><button type="button" data-bs-toggle="tab" data-bs-target="#hoteis" class="fw-bold text-center nav-link nav-link2 text-colored active">Hoteis</button></a>
+                            <a href="#tipos"><button type="button" data-bs-toggle="tab" data-bs-target="#residencias" class="fw-bold text-center nav-link nav-link2 text-colored casas">Casas</button></a>
+                            <a href="#tipos"><button type="button" data-bs-toggle="tab" data-bs-target="#resorts" class="fw-bold text-center nav-link nav-link2 text-colored">Resorts</button></a>
+                        </nav>
+                        <div class="tab-content el">
                             <div class="tab-pane active" id="hoteis">
                                 <div class="row hotel">
-                                    <div class="col-lg-3 col-md-4 col-sm-6">
-                                        <img class="d-block w-100" src="images/tipos/hotel/Creta.png" alt="">
+                                    <div class="col-lg-3 col-md-4 col-sm-6 first">
+                                        <a href="#"><img class="d-block w-100" src="images/tipos/hotel/Creta.png" alt=""></a>
                                         <a href="#"><h5 class="text-colored fw-bold mt-2">Creta</h5></a>
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6">
-                                        <img class="d-block w-100" src="images/tipos/hotel/croacia.jpg" alt="">
+                                        <a href="#"><img class="d-block w-100" src="images/tipos/hotel/croacia.jpg" alt=""></a>
                                         <a href="#"><h5 class="text-colored fw-bold mt-2">Croacia</h5></a>
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6">
-                                        <img class="d-block w-100" src="images/tipos/hotel/dubai.jpg" alt="">
+                                        <a href="#"><img class="d-block w-100" src="images/tipos/hotel/dubai.jpg" alt=""></a>
                                         <a href="#"><h5 class="text-colored fw-bold mt-2">Dubai</h5></a>
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6">
-                                        <img class="d-block w-100" src="images/tipos/hotel/ilhabela.png" alt="">
+                                        <a href="#"><img class="d-block w-100" src="images/tipos/hotel/ilhabela.png" alt=""></a>
                                         <a href="#"><h5 class="text-colored fw-bold mt-2">Ilha bela</h5></a>
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6">
-                                        <img class="d-block w-100" src="images/tipos/hotel/itapema.jpeg" alt="">
+                                        <a href="#"><img class="d-block w-100" src="images/tipos/hotel/itapema.jpeg" alt=""></a>
                                         <a href="#"><h5 class="text-colored fw-bold mt-2">Itapema</h5></a>
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6">
-                                        <img class="d-block w-100" src="images/tipos/hotel/montenegro.jpg" alt="">
-                                        <a href="#"><h5 class="text-colored fw-bold mt-2">Montenego</h5></a>
+                                        <a href="#"><img class="d-block w-100" src="images/tipos/hotel/montenegro.jpg" alt=""></a>
+                                        <a href="#"><h5 class="text-colored fw-bold mt-2">Montenegro</h5></a>
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane" id="residencias">
                                 <div class="row hotel">
-                                    <div class="col-lg-3 col-md-4 col-sm-6">
-                                        <img class="d-block w-100" src="images/tipos/residencia/algarve.jpg" alt="">
+                                    <div class="col-lg-3 col-md-4 col-sm-6 fist">
+                                        <a href="#"><img class="d-block w-100" src="images/tipos/residencia/algarve.jpg" alt=""></a>
                                         <a href="#"><h5 class="text-colored fw-bold mt-2">Algarve</h5></a>
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6">
-                                        <img class="d-block w-100" src="images/tipos/residencia/camposdejordao.jpg" alt="">
+                                        <a href="#"><img class="d-block w-100" src="images/tipos/residencia/camposdejordao.jpg" alt=""></a>
                                         <a href="#"><h5 class="text-colored fw-bold mt-2">Campos de Jordao</h5></a>
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6">
-                                        <img class="d-block w-100" src="images/tipos/residencia/riodejaneiro.jpg" alt="">
+                                        <a href="#"><img class="d-block w-100" src="images/tipos/residencia/riodejaneiro.jpg" alt=""></a>
                                         <a href="#"><h5 class="text-colored fw-bold mt-2">Rio de Janeiro</h5></a>
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6">
-                                        <img class="d-block w-100" src="images/tipos/residencia/saopaulo.jpg" alt="">
+                                        <a href="#"><img class="d-block w-100" src="images/tipos/residencia/saopaulo.jpg" alt=""></a>
                                         <a href="#"><h5 class="text-colored fw-bold mt-2">São Paulo</h5></a>
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6">
-                                        <img class="d-block w-100" src="images/tipos/residencia/bahia.jpg" alt="">
+                                        <a href="#"><img class="d-block w-100" src="images/tipos/residencia/bahia.jpg" alt=""></a>
                                         <a href="#"><h5 class="text-colored fw-bold mt-2">Bahia</h5></a>
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6">
-                                        <img class="d-block w-100" src="images/tipos/residencia/suica.jpg" alt="">
+                                        <a href="#"><img class="d-block w-100" src="images/tipos/residencia/suica.jpg" alt=""></a>
                                         <a href="#"><h5 class="text-colored fw-bold mt-2">Suiça</h5></a>
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                                     </div>
@@ -181,33 +186,33 @@
                             </div>
                             <div class="tab-pane" id="resorts">
                                 <div class="row hotel">
-                                    <div class="col-lg-3 col-md-4 col-sm-6">
-                                        <img class="d-block w-100" src="./images/tipos/resort/Caldasnovas.jpg" alt="">
+                                    <div class="col-lg-3 col-md-4 col-sm-6 first">
+                                        <a href="#"><img class="d-block w-100" src="./images/tipos/resort/Caldasnovas.jpg" alt=""></a>
                                         <a href="#"><h5 class="text-colored fw-bold mt-2">Caldas Novas</h5></a>
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6">
-                                        <img class="d-block w-100" src="./images/tipos/resort/california.jpg" alt="">
+                                        <a href="#"><img class="d-block w-100" src="./images/tipos/resort/california.jpg" alt=""></a>
                                         <a href="#"><h5 class="text-colored fw-bold mt-2">California</h5></a>
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6">
-                                        <img class="d-block w-100" src="./images/tipos/resort/canada.jpg" alt="">
+                                        <a href="#"><img class="d-block w-100" src="./images/tipos/resort/canada.jpg" alt=""></a>
                                         <a href="#"><h5 class="text-colored fw-bold mt-2">Canada</h5></a>
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6">
-                                        <img class="d-block w-100" src="./images/tipos/resort/caribe.jpg" alt="">
+                                        <a href="#"><img class="d-block w-100" src="./images/tipos/resort/caribe.jpg" alt=""></a>
                                         <a href="#"><h5 class="text-colored fw-bold mt-2">Caribe</h5></a>
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6">
-                                        <img class="d-block w-100" src="./images/tipos/resort/colombia.jpeg" alt="">
+                                        <a href="#"><img class="d-block w-100" src="./images/tipos/resort/colombia.jpeg" alt=""></a>
                                         <a href="#"><h5 class="text-colored fw-bold mt-2">Colombia</h5></a>
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6">
-                                        <img class="d-block w-100" src="./images/tipos/resort/patagonia.jpg" alt="">
+                                        <a href="#"><img class="d-block w-100" src="./images/tipos/resort/patagonia.jpg" alt=""></a>
                                         <a href="#"><h5 class="text-colored fw-bold mt-2">Patagônia</h5></a>
                                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                                     </div>
