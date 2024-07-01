@@ -136,6 +136,11 @@ body {
     z-index: 2;
 }
 
+#secnav2 {
+    top: 142px; /* Altura do nav principal */
+    z-index: 2;
+}
+
 #cabecalho {
     z-index: 3;
 }
@@ -145,6 +150,10 @@ body {
 }
 
 #secnav a {
+    text-decoration: none;
+}
+
+#secnav2 a {
     text-decoration: none;
 }
 
